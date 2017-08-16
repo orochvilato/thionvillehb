@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="template">
+	<name>thionvillehb</name>
+	<creationDate>2017-08-15</creationDate>
+	<author>Olivier ROCH VILATO</author>
+	<authorEmail>olivierrochvilato@yahoo.com</authorEmail>
+	<authorUrl></authorUrl>
+	<copyright>Olivier Roch Vilato</copyright>
+	<license>GNU/GPL</license>
+	<version>0.0.2</version>
+	<description>ThionvilleHB Template</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>images</folder>
+		<folder>css</folder>
+    <folder>fonts</folder>
+    <folder>js</folder>
+	</files>
+	<positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>footer</position>
+    <position>position-7</position>
+	</positions>
+</extension>
