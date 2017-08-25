@@ -107,13 +107,13 @@ body {
 @media (max-width: 960px) {
 .carousel-title {
   line-height:1;
-  font-size: 6vw;
+  font-size: 7vw;
   font-weight:600;
 
 }
 .carousel-subtitle {
   line-height:1;
-  font-size: 4vw;
+  font-size: 5vw;
 
 
 }
