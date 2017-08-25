@@ -7,9 +7,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
-
-    <title>Carousel Template for Bootstrap</title>
-
+    <script src="https://use.fontawesome.com/fd9ba3bba2.js"></script>
+    <title>Thionville Moselle HandBall</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Pacifico" rel="stylesheet">
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
@@ -23,7 +23,7 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-tmhb">
       <div class="container">
       <a class="navbar-brand" href="#"><img src="images/logo.png" width="70" height="70" alt="" style="margin-top:-7px;margin-bottom:-7px;"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,42 +32,40 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#"><i class="fa fa-home fa-2x" aria-hidden="true"></i> Accueil <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#"><i class="fa fa-newspaper-o fa-2x" aria-hidden="true"></i> Actualités</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link" href="#"><i class="fa fa-info fa-2x" aria-hidden="true"></i> Infos Club</a>
           </li>
         </ul>
-        <form class="form-inline mt-2 mt-md-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+
       </div>
       </div>
     </nav>
-
 
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      
+
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block img-fluid w-100" src="images/photo3.jpg" alt="First slide">
+        <div class="bandeau image1"><div class="bg-tmhb" style="width:100%;height:100%;display:block;opacity:0.4"></div></div>
+
+        <!--<img class="d-block w-100 bandeau" src="images/photo3.jpg" alt="First slide">-->
         <div class="container">
-            <div class="carousel-caption d-none d-md-block text-left">
-              <h1 class="fadeInUp animated carousel-title">Example headline.</h1>
-              <p class="fadeInUp animated carousel-subtitle">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <div class="carousel-caption d-md-block text-left">
+              <p class="fadeInUp animated carousel-title">Thionville Moselle HandBall</p>
+              <p class="fadeInUp animated carousel-subtitle">Un club, une famille, un état d'esprit, des valeurs !</p>
             </div>
           </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block img-fluid w-100" src="images/photo5.jpg" alt="Second slide">
+        <div class="bandeau image2"></div>
       </div>
 
     </div>
@@ -90,22 +88,22 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          <i class="fa fa-calendar fa-4x tmhb" aria-hidden="true"></i>
+          <h2 class="tmhb">Programme</h2>
+          <p>Programme du Week-end et calendrier de la saison</p>
+          <p><a class="btn btn-secondary" href="#" role="button">Détails &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          <i class="fa fa-sort-amount-desc fa-4x tmhb" aria-hidden="true"></i>
+          <h2 class="tmhb">Classements</h2>
+          <p>Classements des équipes<br/>.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">Equipe 1 &raquo;</a> <a class="btn btn-secondary" href="#" role="button">Equipe 2 &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          <i class="fa fa-camera fa-4x tmhb" aria-hidden="true"></i>
+          <h2>Photos</h2>
+          <p>Voir les photos de nos dernières activités<br/>.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">Voir &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
